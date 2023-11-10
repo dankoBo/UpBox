@@ -1,11 +1,13 @@
-import { Global } from './App.styled'
+import { Global, AppWrapper } from './App.styled'
+import HeaderLayout from './layouts/headerLayout/HeaderLayout'
 
 function App() {
 
 	return (
-		<div>
+		<AppWrapper>
 			<Global />
-		</div>
+			<HeaderLayout />
+		</AppWrapper>
 	)
 }
 
