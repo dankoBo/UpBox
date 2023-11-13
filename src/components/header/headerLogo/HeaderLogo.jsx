@@ -5,11 +5,11 @@ import { Device } from '../../../responsive'
 
 function HeaderLogo() {
 	return (
-		<picture>
-			<source media={Device.phone} srcSet={mobileLogo} />
-			<source media={Device.tablet} srcSet={tabletLogo} />
-			<img src={desktopLogo} alt="logo" />
-		</picture>
+			<picture>
+				<source media={Device.phone} srcSet={mobileLogo} />
+				<source media={Device.tablet} srcSet={tabletLogo} />
+				<img src={desktopLogo} alt="logo" />
+			</picture>
 	)
 }
 

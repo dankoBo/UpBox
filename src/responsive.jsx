@@ -9,3 +9,20 @@ export const Device = {
 	tablet: `(max-width: ${sizes.tablet}px)`,
 	phone: `(max-width: ${sizes.phone}px)`,
 };
+
+
+import styled from 'styled-components';
+
+const StyledComponent = styled.div`
+  color: blue;
+
+	@media ${Device.tablet} {
+		
+	}
+
+	@media ${Device.desktop} {
+
+	}
+`;
+
+// import { Device } from '../../responsive'
