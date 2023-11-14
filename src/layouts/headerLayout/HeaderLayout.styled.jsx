@@ -11,7 +11,12 @@ const HeaderLayoutWrapper = styled.div`
 	border: 1px solid red;
 
 	@media ${Device.tablet} {
-		padding: 0;
+		max-width: 675px;
+		padding: 17px 0;
+	}
+
+	@media ${Device.phone} {
+		max-width: 348px;
 	}
 `
 

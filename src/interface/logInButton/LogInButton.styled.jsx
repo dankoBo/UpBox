@@ -27,9 +27,16 @@ const StyledButton = styled.button`
 	}
 
 	@media ${Device.tablet} {
+		padding: 7px 11px;
 		font-size: 10px;
 		letter-spacing: 1.2px;
   	}
+
+	@media (max-width: 520px) {
+		padding: 4px 10px;
+		font-size: 7px;
+		letter-spacing: 1px;
+	}
 `
 
 export default StyledButton
