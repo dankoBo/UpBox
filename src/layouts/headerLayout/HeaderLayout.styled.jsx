@@ -8,7 +8,6 @@ const HeaderLayoutWrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid red;
 
 	@media ${Device.tablet} {
 		max-width: 675px;

@@ -7,8 +7,6 @@ const AuthPannelContainer = styled.div`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: start;
-	border: 1px solid green;
-	z-index: 1;
 `
 
 export default AuthPannelContainer

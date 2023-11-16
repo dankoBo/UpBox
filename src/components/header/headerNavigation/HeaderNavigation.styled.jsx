@@ -6,7 +6,6 @@ const NavigationContainer = styled.ul`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid green;
 	
 	@media ${Device.tablet} {
 		width: 470px;

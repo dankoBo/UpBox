@@ -8,8 +8,6 @@ const StyledTitle = styled.h2`
 	font-style: normal;
 	font-weight: 400;
 	line-height: 56px;
-
-	border: 1px solid blue;
 `
 
 export default StyledTitle
