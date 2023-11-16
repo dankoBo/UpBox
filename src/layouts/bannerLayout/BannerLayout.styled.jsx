@@ -11,9 +11,13 @@ const BannerWrapper = styled.div`
 
 const BannerContainer = styled.div`
 	height: 510px;
+	width: 1355px;
 	display: flex;
 	align-items: center;
-	border: 1px solid blue;
+
+	@media (max-width: 980px) {
+		align-items: baseline;
+	}
 `
 
 export { BannerWrapper, BannerContainer }

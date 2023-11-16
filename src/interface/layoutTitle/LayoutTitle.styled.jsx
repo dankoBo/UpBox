@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const StyledTitle = styled.h2`
-	max-width: 511px;
+	width: 511px;
 	color: #000000;
 	font-family: DM Serif Text;
 	font-size: 48px;
