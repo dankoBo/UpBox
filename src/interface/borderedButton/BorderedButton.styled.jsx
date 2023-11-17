@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Device } from '../../responsive'
 
 const StyledButton = styled.button`
-	padding: 22px 67px;
+	padding: 20px 30px;
 	border-radius: 300px;
 	border: 4px solid #EF8094;
 	background: #FFFFFF;
@@ -18,22 +19,15 @@ const StyledButton = styled.button`
 	letter-spacing: 1.92px;
 	text-transform: uppercase;
 
-	&:hover {
-		animation: pulse 1s infinite;
-  		transition: .3s;
+	@media ${Device.tablet} {
+		padding: 15px 30px;	
 	}
 
-	@keyframes pulse {
-		0% {
-			transform: scale(1);
-		}
-		70% {
-			transform: scale(.9);
-		}
-		100% {
-			transform: scale(1);
-		}
+	@media ${Device.phone} {
+		padding: 20px 30px;
 	}
+
+	
 `
 
 export default StyledButton

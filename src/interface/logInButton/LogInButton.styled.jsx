@@ -32,7 +32,7 @@ const StyledButton = styled.button`
 		letter-spacing: 1.2px;
   	}
 
-	@media (max-width: 520px) {
+	@media (max-width: 640px) {
 		padding: 4px 10px;
 		font-size: 7px;
 		letter-spacing: 1px;

@@ -8,11 +8,19 @@ const NavigationContainer = styled.ul`
 	align-items: center;
 	
 	@media ${Device.tablet} {
-		width: 470px;
+		width: 400px;
 	}
 
-	@media (max-width: 620px) {
+	@media (max-width: 640px) {
 		width: 370px;
+	}
+
+	@media (max-width: 600px) {
+		height: 100%;
+		width: 250px;
+		flex-wrap: wrap;
+		align-content: space-around;
+		justify-content: space-around;
 	}
 
 	

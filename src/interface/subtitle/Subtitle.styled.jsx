@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Device } from '../../responsive'
 
 const StyledSubtitle = styled.p`
 	width: 100%;
@@ -9,6 +10,16 @@ const StyledSubtitle = styled.p`
 	font-weight: 400;
 	line-height: normal;
 	letter-spacing: 0.18px;
+
+	@media ${Device.tablet} {
+		font-size: 14px;
+		letter-spacing: 0.14px;
+	}
+
+	@media ${Device.phone} {
+		font-size: 18px;
+		letter-spacing: 0.18px;
+	}
 `
 
 export default StyledSubtitle

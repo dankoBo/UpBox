@@ -2,19 +2,29 @@ import styled from 'styled-components'
 import { Device } from '../../responsive'
 
 const HeaderLayoutWrapper = styled.div`
-	max-width: 1270px;
-	padding: 17px 10px;
+	height: 90px;
+	padding: 0px 65px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border: 1px solid red;
+
+	@media (max-width: 1000px) {
+		padding: 0px 50px;
+	}
 
 	@media ${Device.tablet} {
-		max-width: 675px;
-		padding: 17px 0;
+		height: 70px;
+		padding: 0px 40px;
+	}
+
+	@media (max-width: 500px) {
+		padding: 0px 15px;
 	}
 
 	@media ${Device.phone} {
-		max-width: 348px;
+		height: 90px;
+		padding: 17px 15px;
 	}
 `
 
