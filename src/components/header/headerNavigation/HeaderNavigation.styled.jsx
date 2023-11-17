@@ -15,15 +15,7 @@ const NavigationContainer = styled.ul`
 		width: 370px;
 	}
 
-	@media (max-width: 520px) {
-		width: 300px;
-	}
 	
-	@media (max-width: 440px) {
-		width: 250px;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
 `
 
 export default NavigationContainer

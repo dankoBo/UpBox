@@ -8,7 +8,6 @@ const StyledButton = styled.button`
 	display: flex;
 	align-items: center;
 	cursor: pointer;
-	transition: .3s;
 
 	color: #000000;
 	font-family: DM Sans;
