@@ -20,12 +20,6 @@ const StyledButton = styled.button`
 	letter-spacing: 1.68px;
 	text-transform: uppercase;
 
-	&:hover {
-		background-color: #EF8094;
-		border: 2px solid #EF8094;
-		color: #FFFFFF;
-	}
-
 	@media ${Device.tablet} {
 		padding: 7px 11px;
 		font-size: 10px;

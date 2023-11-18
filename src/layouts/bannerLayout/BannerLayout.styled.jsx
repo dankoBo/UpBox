@@ -34,10 +34,6 @@ const BannerContainer = styled.div`
 	@media (max-width: 500px) {
 		margin: 0;
 	}
-
-	@media ${Device.phone} {
-		margin: 0;
-	}
 `
 
 export { BannerWrapper, BannerContainer }
