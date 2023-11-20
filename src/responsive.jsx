@@ -20,6 +20,10 @@ const StyledComponent = styled.div`
 		
 	}
 
+	@media ${Device.phone} {
+		
+	}
+
 	@media ${Device.desktop} {
 
 	}

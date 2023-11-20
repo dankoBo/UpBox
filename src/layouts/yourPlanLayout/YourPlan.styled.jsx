@@ -1,21 +1,24 @@
 import styled from 'styled-components'
+import { Device } from '../../responsive'
 
 const YourPlanWrapper = styled.div`
 	padding: 71px 85px 0;
 	width: 100%;
-	height: 624px;
-	border: 1px solid red;
+
+	@media ${Device.tablet} {
+		padding: 27px 47px 0;
+	}
+
+	@media ${Device.phone} {
+		padding: 0px 15px;
+	}
 `
 
 const YourPlanContainer = styled.div`
-	width: 1270px;
-	height: 553px;
-	border: 1px solid blue;
+	max-width: 1270px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `
 
-const YourCardsContainer = styled.div`
-	width: 100%;
-	border: 1px solid green;
-`
-
-export { YourPlanWrapper, YourCardsContainer, YourPlanContainer }
+export { YourPlanWrapper, YourPlanContainer }

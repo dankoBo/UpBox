@@ -1,12 +1,14 @@
 import { CardContainer } from './YourPlanCard.styled'
 import ComponentTitle from '../../../interface/componentTitle/ComponentTitle'
 import FilledButton from '../../../interface/filledButton/FilledButton'
+import SubscriptionPrice from '../../../interface/subscriptionPrice/SubscriptionPrice'
 
-function YourPlanCard() {
+function YourPlanCard(props) {
 	return (
 		<CardContainer>
-			<ComponentTitle  />
-			<FilledButton />
+			<ComponentTitle titleText={props.titleText}/>
+			<SubscriptionPrice priceText={props.priceText} />
+			<FilledButton name={props.name} />
 		</CardContainer>
 	);
 }

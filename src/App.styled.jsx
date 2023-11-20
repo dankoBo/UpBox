@@ -30,7 +30,7 @@ const Global = createGlobalStyle`
 
 const AppWrapper = styled.div`
 	max-width: 1440px;
-	height: 100vh;
+	height: 100%;
 	margin: 0 auto;
 	background: #FFF;
 	border: 1px solid red;
