@@ -7,7 +7,6 @@ const HeaderLayoutWrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid red;
 
 	@media (max-width: 1000px) {
 		padding: 0px 50px;

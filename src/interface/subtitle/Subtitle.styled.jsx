@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import { Device } from '../../responsive'
 
 const StyledSubtitle = styled.p`
-	width: 100%;
 	color: #000000;
 	font-family: DM Sans;
 	font-size: 18px;
