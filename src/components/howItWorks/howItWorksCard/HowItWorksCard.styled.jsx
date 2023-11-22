@@ -1,14 +1,23 @@
 import styled from 'styled-components'
+import { Device } from '../../../responsive'
 
 const CardContainer = styled.div`
 	height: 415px;
 	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
+
+	@media ${Device.tablet} {
+		
+	}
+
+	@media ${Device.phone} {
+		
+	}
 `
 
 const CardImage = styled.div`
-	width: 411px;
+	width: 50%;
 	height: 415px;
 	display: flex;
 	flex-direction: column;
@@ -16,9 +25,11 @@ const CardImage = styled.div`
 	border: 1px solid yellow;
 `
 
-const TitleSubtitleConbtainer = styled.div`
-	width: 500px;
-	height: 158px;
+const TitleSubtitleContainer = styled.div`
+	width: 50%;
+	height: 184px;
+	padding: 0 16px;
+	border: 1px solid skyblue;
 `
 
-export { CardContainer, CardImage, TitleSubtitleConbtainer }
+export { CardContainer, CardImage, TitleSubtitleContainer }
